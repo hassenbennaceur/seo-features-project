@@ -5,6 +5,9 @@ import FeatureSection1 from "@/modules/core/components/implements/features/featu
 import FeatureSection2 from "@/modules/core/components/implements/features/feature2";
 import TestimonialsSection from "@/modules/core/components/implements/client/client";
 import Features from "@/modules/core/components/implements/efforts/efforts";
+import Pricing from "@/modules/core/components/implements/pricing/pricing";
+import JoinUs from "@/modules/core/components/implements/joinus/joinus";
+import Footer from "@/modules/core/components/implements/footer/footer";
 
 export default function Home() {
   return (
@@ -16,6 +19,9 @@ export default function Home() {
       <FeatureSection2 />
       <TestimonialsSection />
       <Features />
+      <Pricing />
+      <JoinUs />
+      <Footer />
      {/* <Hero />
       <CustomersChoose />
       <Count />
