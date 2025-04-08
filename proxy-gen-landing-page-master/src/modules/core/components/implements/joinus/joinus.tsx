@@ -3,7 +3,8 @@ import React from "react";
 export default function JoinUs() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-b from-black via-purple-900/20 to-black p-6">
-      <div className="bg-gradient-to-b from-purple-900/30 to-black border border-gray-700 rounded-2xl p-10 w-full max-w-2xl text-center shadow-lg">
+      <div className="bg-gradient-to-b from-purple-900/30 to-black border border-gray-700 rounded-2xl p-16 w-full max-w-3xl text-center shadow-lg min-h-[500px] flex flex-col justify-center">
+
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
           AI-driven SEO<br />for everyone.
         </h1>

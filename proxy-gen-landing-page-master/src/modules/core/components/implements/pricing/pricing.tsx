@@ -21,7 +21,7 @@ export default function Pricing() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl">
         
         {/* Basic Plan */}
-        <div className="bg-gradient-to-b from-gray-900 to-black border border-gray-700 rounded-2xl p-8 flex flex-col items-center shadow-lg">
+        <div className="bg-gradient-to-b from-gray-900 to-black border border-gray-700 rounded-2xl p-8 flex flex-col justify-between items-center shadow-lg h-full">
           <h2 className="text-xl font-semibold text-white mb-2">Pricing</h2>
           <p className="text-gray-400 mb-6">$29/mo</p>
           <ul className="text-gray-300 mb-8 space-y-3 text-center">
@@ -36,7 +36,7 @@ export default function Pricing() {
         </div>
 
         {/* Pro Plan */}
-        <div className="bg-gradient-to-b from-purple-900 to-black border border-purple-700 rounded-2xl p-8 flex flex-col items-center shadow-lg">
+        <div className="bg-gradient-to-b from-purple-900 to-black border border-purple-700 rounded-2xl p-8 flex flex-col justify-between items-center shadow-lg">
           <h2 className="text-xl font-semibold text-white mb-2">Pro</h2>
           <p className="text-gray-400 mb-6">$79/mo</p>
           <ul className="text-gray-300 mb-8 space-y-3 text-center">
@@ -53,7 +53,7 @@ export default function Pricing() {
         </div>
 
         {/* Business Plan */}
-        <div className="bg-gradient-to-b from-gray-900 to-black border border-gray-700 rounded-2xl p-8 flex flex-col items-center shadow-lg">
+        <div className="bg-gradient-to-b from-gray-900 to-black border border-gray-700 rounded-2xl p-8 flex flex-col justify-between items-center shadow-lg">
           <h2 className="text-xl font-semibold text-white mb-2">Business</h2>
           <p className="text-gray-400 mb-6">$149/mo</p>
           <ul className="text-gray-300 mb-8 space-y-3 text-center">
