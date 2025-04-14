@@ -1,18 +1,20 @@
-import  Button  from "@/modules/core/components/Button/button";
+import Button from "@/modules/core/components/Button/button";
 
 export default function Navbar() {
   return (
-    <nav className="w-full flex items-center justify-between px-8 py-4 bg-black">
-      {/* Left: Logo */}
-      <div className="flex items-center space-x-2">
-        <div className="w-8 h-8 bg-gradient-to-br from-purple-500 to-purple-800 rounded-xl flex items-center justify-center">
-          {/* You can replace this div with an <img src="..." /> if you have a logo */}
-          <div className="w-3 h-3 bg-white rounded-full" />
+    <nav className="flex w-[1200px] h-[50px] py-[13px] justify-center items-center gap-[74px] mx-auto border-b border-white/15 ">
+        {/* Logo */}
+      <div className="flex items-center">
+        <div className="bg-gradient-to-br from-purple-500 to-purple-800 rounded-xl w-10 h-10 flex items-center justify-center">
+          <img src="/images/logo1.png" width="38" height="38" alt="Logo" />
         </div>
       </div>
 
-      {/* Center: Navigation Links */}
-      <div className="flex items-center gap-8 bg-[#111] py-2 px-6 rounded-full">
+      {/* Spacer after logo */}
+      
+
+      {/* Nav links */}
+      <div className="flex items-center justify-center gap-[30px] bg-black py-2 px-10 rounded-full border border-gray-500">
         <a href="#" className="text-white text-sm hover:underline">Features</a>
         <a href="#" className="text-white text-sm hover:underline">Developers</a>
         <a href="#" className="text-white text-sm hover:underline">Company</a>
@@ -20,10 +22,22 @@ export default function Navbar() {
         <a href="#" className="text-white text-sm hover:underline">Changelog</a>
       </div>
 
-      {/* Right: Button */}
-      <Button className="bg-gradient-to-br from-purple-600 to-purple-800 text-white px-6 py-2 rounded-full shadow-lg">
-        Join waitlist
-      </Button>
+
+      {/* Spacer after nav links */}
+     
+
+      {/* Join Waitlist Button */}
+      <div className="flex items-center justify-center bg-black p-[2px] border border-gray-500 rounded-lg">
+        <Button className="!text-[10px] bg-gradient-to-br from-purple-600 to-purple-800 text-white w-[109px] h-[30px] rounded-lg font-medium flex items-center justify-center normal-case">
+          Join waitlist
+        </Button>
+      </div>
+
+
+
+
+
     </nav>
+
   );
 }

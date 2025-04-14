@@ -12,16 +12,17 @@ import Footer from "@/modules/core/components/implements/footer/footer";
 export default function Home() {
   return (
     <main>
-      <Navbar />
-      <Dashboard />
-      <Sponsor />
-      <FeatureSection1 />
-      <FeatureSection2 />
-      <TestimonialsSection />
-      <Features />
-      <Pricing />
-      <JoinUs />
-      <Footer />
+      <div className="flex flex-col items-center justify-center">
+        <Navbar />
+        <Dashboard />
+        <Sponsor />
+        <FeatureSection1 />
+        <TestimonialsSection />
+        <Features />
+        <Pricing />
+        <JoinUs />
+        <Footer />
+      </div> 
      {/* <Hero />
       <CustomersChoose />
       <Count />

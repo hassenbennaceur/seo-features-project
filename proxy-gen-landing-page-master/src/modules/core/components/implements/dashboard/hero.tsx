@@ -7,7 +7,7 @@ export default function HeroSection() {
   return (
     <section className="flex flex-col items-center justify-center text-center min-h-screen bg-gradient-to-b from-black via-[#1a0b2e] to-[#250c4c] px-6 py-20">
       
-      <Badge variant="outline" className="border-purple-500 text-purple-400 bg-black mb-6">
+      <Badge variant="outline" className="border-purple-500 text-purple-400 bg-black mb-6 ">
         <span className="font-bold mr-1">NEW</span> Latest integration just arrived
       </Badge>
 

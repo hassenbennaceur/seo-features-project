@@ -1,38 +1,46 @@
 'use client';
 
 export default function Sponsor() {
-  const sponsors = [
-    { name: 'Acme Corp' },
-    { name: 'Echo Valley' },
-    { name: 'Quantum' },
-    { name: 'PULSE' },
-    { name: 'Outside' },
-    { name: 'APEX' },
-    { name: 'Celestial' },
-    { name: '2TWICE' },
-  ];
+ 
 
   return (
-    <section className="bg-black text-white py-20 flex flex-col items-center">
-      {/* Title */}
-      <div className="text-center mb-12">
-        <p className="text-gray-400 text-sm uppercase tracking-widest mb-3">
-          Trusted by the world's most innovative teams
-        </p>
-        <div className="h-1 w-10 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 rounded-full mx-auto" />
-      </div>
+    
+  <div className="flex w-[1200px] h-[390px] flex-col justify-center items-center gap-[40px]">
 
-      {/* Sponsors Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-        {sponsors.map((sponsor, index) => (
-          <div
-            key={index}
-            className="flex items-center justify-center h-24 w-48 bg-[#0e0e10] border border-gray-700 rounded-2xl hover:border-purple-500 hover:shadow-lg transition duration-300"
-          >
-            <span className="font-semibold text-lg">{sponsor.name}</span>
-          </div>
-        ))}
+    <div className="text-white/70 text-center font-inter text-[16px] not-italic font-normal leading-[26px] tracking-[-0.002px]">
+         Trusted by the world’s most innovative teams
+    </div>
+    <div className="flex flex-col gap-[10px]">
+        <div className="flex items-start gap-2.5" >
+              <div className="w-[255px] h-[98px] flex flex-col items-start gap-[10px] p-[32px] px-[40px] rounded-[10px] border border-white/15">
+                        <img   src="/images/acme-crop.png"  alt="Acme Corp"   className="w-[163px] h-[70px] object-contain"  />
+              </div>
+              <div className="w-[255px] h-[98px] flex flex-col items-start gap-[10px] p-[32px] px-[40px] rounded-[10px] border border-white/15">
+                        <img  src="/images/echo-valley.png"  alt="Echo Valley"   className="w-[163px] h-[70px] object-contain" />
+              </div>
+              <div className="w-[255px] h-[98px] flex flex-col items-start gap-[10px] p-[32px] px-[40px] rounded-[10px] border border-white/15">
+                        <img    src="/images/quantum.png"    alt="Quantum"   className="w-[163px] h-[70px] object-contain" />
+              </div>
+              <div className="w-[255px] h-[98px] flex flex-col items-start gap-[10px] p-[32px] px-[40px] rounded-[10px] border border-white/15">
+                        <img  src="/images/pulse.png"    alt="Pulse"       className="w-[163px] h-[70px] object-contain"  />
+              </div>
+        </div>
+        <div className="flex items-start gap-2.5" >
+              <div className="w-[255px] h-[98px] flex flex-col items-start gap-[10px] p-[32px] px-[40px] rounded-[10px] border border-white/15">
+                        <img      src="/images/outside.png"    alt="Acme Outside"    className="w-[163px] h-[70px] object-contain"    />
+              </div>
+              <div className="w-[255px] h-[98px] flex flex-col items-start gap-[10px] p-[32px] px-[40px] rounded-[10px] border border-white/15">
+                        <img    src="/images/apex.png"   alt="AcmeApex Outside"  className="w-[163px] h-[70px] object-contain"  />
+              </div>
+              <div className="w-[255px] h-[98px] flex flex-col items-start gap-[10px] p-[32px] px-[40px] rounded-[10px] border border-white/15">
+                        <img   src="/images/celestial.png"  alt="celestial "   className="w-[163px] h-[70px] object-contain"   />
+              </div>
+              <div className="w-[255px] h-[98px] flex flex-col items-start gap-[10px] p-[32px] px-[40px] rounded-[10px] border border-white/15">
+                        <img  src="/images/twice.png" alt="twice " className="w-[163px] h-[70px] object-contain" />
+              </div>
+        </div>
       </div>
-    </section>
+  </div>
+  
   );
 }
